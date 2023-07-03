@@ -24,7 +24,7 @@ To use the addon, follow these steps:
 
 ## Installation
 
-1. Download the "Not_falling_block.mcaddon" file from the [GitHub repository](https://github.com/LeLenoch/Not-Falling-Block-mcpe-addon/releases/download/NFB1/not_falling_block.mcaddon).
+1. Download the [NFB_textures.mcpack](https://github.com/LeLenoch/Not-Falling-Block-mcpe-addon/releases/download/NFB1/NFB_textures.mcpack) and [NFB_behavior](https://github.com/LeLenoch/Not-Falling-Block-mcpe-addon/releases/download/NFB1/NFB_behavior.mcpack) files from the GitHub repository.
 2. Open Minecraft.
 3. Import the addon by opening the downloaded "Not_falling_block.mcaddon" file.
 
