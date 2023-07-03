@@ -1,0 +1,881 @@
+{
+	"file_path": "C:\\Users\\81len\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\falling block\\entities\\notfalling_block.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "df7aa539_c734_41fe_8f46_48e4b80b5caf",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:entity": {
+						"components": {
+							"minecraft:nameable": {},
+							"minecraft:collision_box": {
+								"width": 1,
+								"height": 1
+							},
+							"minecraft:navigation.walk": {
+								"is_amphibious": true,
+								"can_pass_doors": true,
+								"can_walk": false
+							},
+							"minecraft:health": {
+								"value": 999999999,
+								"max": 999999999
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/entities/notfalling_block.json"
+							},
+							"minecraft:behavior.hurt_by_target": {
+								"priority": 1
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 2,
+								"must_see": true,
+								"reselect_targets": true,
+								"within_radius": 25,
+								"must_see_forget_duration": 17,
+								"entity_types": [
+									{
+										"filters": {
+											"any_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "player"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "snowgolem"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "irongolem"
+												}
+											]
+										},
+										"max_dist": 35
+									},
+									{
+										"filters": {
+											"any_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "villager"
+												},
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "wandering_trader"
+												}
+											]
+										},
+										"max_dist": 35,
+										"must_see": false
+									},
+									{
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"value": "baby_turtle"
+												},
+												{
+													"test": "in_water",
+													"subject": "other",
+													"operator": "!=",
+													"value": true
+												}
+											]
+										},
+										"max_dist": 35
+									}
+								]
+							},
+							"minecraft:pushable": {
+								"is_pushable": false,
+								"is_pushable_by_piston": false
+							},
+							"minecraft:conditional_bandwidth_optimization": {},
+							"minecraft:physics": {
+								"has_gravity": false
+							},
+							"minecraft:knockback_resistance": {
+								"value": 100,
+								"max": 100
+							}
+						},
+						"description": {
+							"identifier": "lootland:notfalling_block",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:nameable",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:nameable": {},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:navigation.walk": {
+										"is_amphibious": true,
+										"can_pass_doors": true,
+										"can_walk": false
+									},
+									"minecraft:health": {
+										"value": 999999999,
+										"max": 999999999
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/entities/notfalling_block.json"
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 1
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"must_see": true,
+										"reselect_targets": true,
+										"within_radius": 25,
+										"must_see_forget_duration": 17,
+										"entity_types": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "player"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "snowgolem"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "irongolem"
+														}
+													]
+												},
+												"max_dist": 35
+											},
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "villager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "wandering_trader"
+														}
+													]
+												},
+												"max_dist": 35,
+												"must_see": false
+											},
+											{
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "baby_turtle"
+														},
+														{
+															"test": "in_water",
+															"subject": "other",
+															"operator": "!=",
+															"value": true
+														}
+													]
+												},
+												"max_dist": 35
+											}
+										]
+									},
+									"minecraft:pushable": {
+										"is_pushable": false,
+										"is_pushable_by_piston": false
+									},
+									"minecraft:conditional_bandwidth_optimization": {},
+									"minecraft:physics": {
+										"has_gravity": false
+									},
+									"minecraft:knockback_resistance": {
+										"value": 100,
+										"max": 100
+									}
+								},
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 1,
+									"height": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:nameable": {},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:navigation.walk": {
+										"is_amphibious": true,
+										"can_pass_doors": true,
+										"can_walk": false
+									},
+									"minecraft:health": {
+										"value": 999999999,
+										"max": 999999999
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/entities/notfalling_block.json"
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 1
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"must_see": true,
+										"reselect_targets": true,
+										"within_radius": 25,
+										"must_see_forget_duration": 17,
+										"entity_types": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "player"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "snowgolem"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "irongolem"
+														}
+													]
+												},
+												"max_dist": 35
+											},
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "villager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "wandering_trader"
+														}
+													]
+												},
+												"max_dist": 35,
+												"must_see": false
+											},
+											{
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "baby_turtle"
+														},
+														{
+															"test": "in_water",
+															"subject": "other",
+															"operator": "!=",
+															"value": true
+														}
+													]
+												},
+												"max_dist": 35
+											}
+										]
+									},
+									"minecraft:pushable": {
+										"is_pushable": false,
+										"is_pushable_by_piston": false
+									},
+									"minecraft:conditional_bandwidth_optimization": {},
+									"minecraft:physics": {
+										"has_gravity": false
+									},
+									"minecraft:knockback_resistance": {
+										"value": 100,
+										"max": 100
+									}
+								},
+								"key": "minecraft:navigation.walk",
+								"is_minified": true,
+								"children": {
+									"is_amphibious": true,
+									"can_pass_doors": true,
+									"can_walk": false
+								}
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 999999999,
+									"max": 999999999
+								}
+							},
+							{
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/entities/notfalling_block.json"
+								}
+							},
+							{
+								"key": "minecraft:behavior.hurt_by_target",
+								"is_minified": true,
+								"children": {
+									"priority": 1
+								}
+							},
+							{
+								"key": "minecraft:behavior.nearest_attackable_target",
+								"children": [
+									{
+										"data": "2",
+										"key": "priority"
+									},
+									{
+										"data": "true",
+										"key": "must_see"
+									},
+									{
+										"data": "true",
+										"key": "reselect_targets"
+									},
+									{
+										"data": "25",
+										"key": "within_radius"
+									},
+									{
+										"data": "17",
+										"key": "must_see_forget_duration"
+									},
+									{
+										"open": {
+											"priority": 2,
+											"must_see": true,
+											"reselect_targets": true,
+											"within_radius": 25,
+											"must_see_forget_duration": 17,
+											"entity_types": [
+												{
+													"filters": {
+														"any_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "snowgolem"
+															},
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "irongolem"
+															}
+														]
+													},
+													"max_dist": 35
+												},
+												{
+													"filters": {
+														"any_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "villager"
+															},
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "wandering_trader"
+															}
+														]
+													},
+													"max_dist": 35,
+													"must_see": false
+												},
+												{
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "baby_turtle"
+															},
+															{
+																"test": "in_water",
+																"subject": "other",
+																"operator": "!=",
+																"value": true
+															}
+														]
+													},
+													"max_dist": 35
+												}
+											]
+										},
+										"key": "entity_types",
+										"is_minified": true,
+										"children": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "player"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "snowgolem"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "irongolem"
+														}
+													]
+												},
+												"max_dist": 35
+											},
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "villager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "wandering_trader"
+														}
+													]
+												},
+												"max_dist": 35,
+												"must_see": false
+											},
+											{
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "baby_turtle"
+														},
+														{
+															"test": "in_water",
+															"subject": "other",
+															"operator": "!=",
+															"value": true
+														}
+													]
+												},
+												"max_dist": 35
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:pushable",
+								"is_minified": true,
+								"children": {
+									"is_pushable": false,
+									"is_pushable_by_piston": false
+								}
+							},
+							{
+								"open": {
+									"minecraft:nameable": {},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:navigation.walk": {
+										"is_amphibious": true,
+										"can_pass_doors": true,
+										"can_walk": false
+									},
+									"minecraft:health": {
+										"value": 999999999,
+										"max": 999999999
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/entities/notfalling_block.json"
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 1
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"must_see": true,
+										"reselect_targets": true,
+										"within_radius": 25,
+										"must_see_forget_duration": 17,
+										"entity_types": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "player"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "snowgolem"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "irongolem"
+														}
+													]
+												},
+												"max_dist": 35
+											},
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "villager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "wandering_trader"
+														}
+													]
+												},
+												"max_dist": 35,
+												"must_see": false
+											},
+											{
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "baby_turtle"
+														},
+														{
+															"test": "in_water",
+															"subject": "other",
+															"operator": "!=",
+															"value": true
+														}
+													]
+												},
+												"max_dist": 35
+											}
+										]
+									},
+									"minecraft:pushable": {
+										"is_pushable": false,
+										"is_pushable_by_piston": false
+									},
+									"minecraft:conditional_bandwidth_optimization": {},
+									"minecraft:physics": {
+										"has_gravity": false
+									},
+									"minecraft:knockback_resistance": {
+										"value": 100,
+										"max": 100
+									}
+								},
+								"key": "minecraft:conditional_bandwidth_optimization",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:nameable": {},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:navigation.walk": {
+										"is_amphibious": true,
+										"can_pass_doors": true,
+										"can_walk": false
+									},
+									"minecraft:health": {
+										"value": 999999999,
+										"max": 999999999
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/entities/notfalling_block.json"
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 1
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"must_see": true,
+										"reselect_targets": true,
+										"within_radius": 25,
+										"must_see_forget_duration": 17,
+										"entity_types": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "player"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "snowgolem"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "irongolem"
+														}
+													]
+												},
+												"max_dist": 35
+											},
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "villager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "wandering_trader"
+														}
+													]
+												},
+												"max_dist": 35,
+												"must_see": false
+											},
+											{
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "baby_turtle"
+														},
+														{
+															"test": "in_water",
+															"subject": "other",
+															"operator": "!=",
+															"value": true
+														}
+													]
+												},
+												"max_dist": 35
+											}
+										]
+									},
+									"minecraft:pushable": {
+										"is_pushable": false,
+										"is_pushable_by_piston": false
+									},
+									"minecraft:conditional_bandwidth_optimization": {},
+									"minecraft:physics": {
+										"has_gravity": false
+									},
+									"minecraft:knockback_resistance": {
+										"value": 100,
+										"max": 100
+									}
+								},
+								"data": "false",
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {
+									"has_gravity": false
+								}
+							},
+							{
+								"open": {
+									"minecraft:nameable": {},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:navigation.walk": {
+										"is_amphibious": true,
+										"can_pass_doors": true,
+										"can_walk": false
+									},
+									"minecraft:health": {
+										"value": 999999999,
+										"max": 999999999
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/entities/notfalling_block.json"
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 1
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"must_see": true,
+										"reselect_targets": true,
+										"within_radius": 25,
+										"must_see_forget_duration": 17,
+										"entity_types": [
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "player"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "snowgolem"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "irongolem"
+														}
+													]
+												},
+												"max_dist": 35
+											},
+											{
+												"filters": {
+													"any_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "villager"
+														},
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "wandering_trader"
+														}
+													]
+												},
+												"max_dist": 35,
+												"must_see": false
+											},
+											{
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "baby_turtle"
+														},
+														{
+															"test": "in_water",
+															"subject": "other",
+															"operator": "!=",
+															"value": true
+														}
+													]
+												},
+												"max_dist": 35
+											}
+										]
+									},
+									"minecraft:pushable": {
+										"is_pushable": false,
+										"is_pushable_by_piston": false
+									},
+									"minecraft:conditional_bandwidth_optimization": {},
+									"minecraft:physics": {
+										"has_gravity": false
+									},
+									"minecraft:knockback_resistance": {
+										"value": 100,
+										"max": 100
+									}
+								},
+								"key": "minecraft:knockback_resistance",
+								"is_minified": true,
+								"children": {
+									"value": 100,
+									"max": 100
+								}
+							}
+						]
+					},
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lootland:notfalling_block",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					}
+				]
+			}
+		]
+	}
+}

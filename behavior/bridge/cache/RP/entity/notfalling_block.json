@@ -1,0 +1,260 @@
+{
+	"file_path": "C:\\Users\\81len\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\falling block\\entity\\notfalling_block.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "4b998948_d703_490c_abdd_75765f6e33ab",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "lootland:notfalling_block",
+							"materials": {
+								"default": "zombie"
+							},
+							"textures": {
+								"default": "textures/entity/notfallingblock"
+							},
+							"geometry": {
+								"default": "notfalling_block"
+							},
+							"spawn_egg": {
+								"texture": "spawn_egg",
+								"texture_index": 69
+							},
+							"scripts": {
+								"pre_animation": [
+									"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+								]
+							},
+							"enable_attachables": false,
+							"render_controllers": [
+								"controller.render.zombie"
+							]
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lootland:notfalling_block",
+								"materials": {
+									"default": "zombie"
+								},
+								"textures": {
+									"default": "textures/entity/notfallingblock"
+								},
+								"geometry": {
+									"default": "notfalling_block"
+								},
+								"spawn_egg": {
+									"texture": "spawn_egg",
+									"texture_index": 69
+								},
+								"scripts": {
+									"pre_animation": [
+										"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+									]
+								},
+								"enable_attachables": false,
+								"render_controllers": [
+									"controller.render.zombie"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "lootland:notfalling_block",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/notfallingblock"
+									},
+									"geometry": {
+										"default": "notfalling_block"
+									},
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 69
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+										]
+									},
+									"enable_attachables": false,
+									"render_controllers": [
+										"controller.render.zombie"
+									]
+								},
+								"data": "lootland:notfalling_block",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "lootland:notfalling_block",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/notfallingblock"
+									},
+									"geometry": {
+										"default": "notfalling_block"
+									},
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 69
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+										]
+									},
+									"enable_attachables": false,
+									"render_controllers": [
+										"controller.render.zombie"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "zombie"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lootland:notfalling_block",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/notfallingblock"
+									},
+									"geometry": {
+										"default": "notfalling_block"
+									},
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 69
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+										]
+									},
+									"enable_attachables": false,
+									"render_controllers": [
+										"controller.render.zombie"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/notfallingblock"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lootland:notfalling_block",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/notfallingblock"
+									},
+									"geometry": {
+										"default": "notfalling_block"
+									},
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 69
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+										]
+									},
+									"enable_attachables": false,
+									"render_controllers": [
+										"controller.render.zombie"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "notfalling_block"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lootland:notfalling_block",
+									"materials": {
+										"default": "zombie"
+									},
+									"textures": {
+										"default": "textures/entity/notfallingblock"
+									},
+									"geometry": {
+										"default": "notfalling_block"
+									},
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 69
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+										]
+									},
+									"enable_attachables": false,
+									"render_controllers": [
+										"controller.render.zombie"
+									]
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "spawn_egg",
+									"texture_index": 69
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"pre_animation": [
+										"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+									]
+								}
+							},
+							{
+								"data": "false",
+								"key": "enable_attachables"
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.zombie"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,6 @@
+##bridge-file-version: #8
+pack.name=Not falling block
+pack.description=by @LenochJ (twitter) @LeLenoch (github)
+
+entity.lootland:notfalling_block.name=Not falling block 
+item.spawn_egg.entity.lootland:notfalling_block.name=Spawn Falling Block

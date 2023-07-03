@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lootland:notfalling_block",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/notfallingblock"
+			},
+			"geometry": {
+				"default": "notfalling_block"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 69
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+				]
+			},
+			"enable_attachables": false,
+			"render_controllers": [
+				"controller.render.zombie"
+			]
+		}
+	}
+}
